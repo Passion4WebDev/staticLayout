@@ -1,1 +1,17 @@
-!
+
+
+.container{
+  display: flex;
+width: 1325px;
+height: 650px;
+background-color: navy;
+text-align: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.item{
+  color: white;
+ }
+
