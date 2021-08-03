@@ -1,23 +1,23 @@
 
 .topnav {
-  background-color: purple;
+  background-color: rgb(4, 0, 255);
   overflow: hidden;
 }
 
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: purple;
+  background-color: rgb(221, 221, 221);
+  color: Gray;
 }
 
 .topnav a.active {
@@ -29,7 +29,7 @@
   background-color: orange;
   border: none;
   color: rgb(88, 78, 78);
-  padding: 15px 32px;
+  padding: 40px 60px;
   text-align: flex-end;
   text-decoration: none;
   display: inline-block;
@@ -37,33 +37,35 @@
 }
 
 .container{
-display: center;
-width: 1333px;
-height: 550px;
-background-color: navy;
-text-align: center;
-flex-direction: center;
-align-items: center;
-font-size: 25px;
-color: white;
-}
-
+  display: center;
+  width: 1333px;
+  height: 1100px;
+  background-color: navy;
+  text-align: center;
+  flex-direction: center;
+  align-items: center;
+   font-size: 15px;
+  color: white;
+  }
+  
 .container2{
-    width: 1333px;
-  height: 350px;
+  display: center;
+  width: 1333px;
+  height: 550px;
+  text-align: center;
+  flex-direction: center;
+  align-items: center;
   background-color: white;
-  margin-top: 100px;
+  
 }
-
-
 
 .item{
   color: white;
  }
 
  #imgsrc{
-   width: 50px;
-   height: 50px:
+   width: 65px;
+   height: 65px:
  }
 
 #kastbtn{
@@ -73,5 +75,5 @@ color: white;
 }
 
 #kast{
- align-content: center;
-}
+  align-content: center;
+ }
